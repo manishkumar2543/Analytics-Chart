@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bai Jamjuree", sans-serif;
+   
+ 
+ 
+}
+html body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: cadetblue;
+}
+.box-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box1{
+    height: 95%;
+    width: 22%;
+    background-color: rgb(239, 236, 236);
+    padding: 20px 0px;
+    padding-left: 15px;
+    border-right: 1px solid rgb(64, 63, 63);
+    
+}
+.dp-container{
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+}
+.dp-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+.setting-content{
+    margin-top: 50px;
+
+}
+.setting p{
+    font-size: 18px;
+
+    
+}
+.setting:hover{
+    color: white;
+    background-color: goldenrod;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+  
+}
+.setting i{
+    font-size: 18px;
+}
+.setting{
+    display: flex;
+   gap: 5px;
+   padding: 10px 0px;
+   padding-left: 5px;
+   
+   
+}
+.graph-box{
+ padding: 10px;
+}
+.use-content{
+    display: flex;
+    justify-content:space-between;
+    color: white;
+}
+.box2{
+    height: 95%;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.graph-box{
+    height: 300px;
+    width: 400px;
+    background-color: rgb(44, 41, 41);
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+ 
+   
+ 
+  
+}
+.head-content h3{
+  
+    font-size: 30px;
+}
+.head-content p{
+    padding: 12px 0px;
+    font-size: 16px;
+}
+.graph-clm{
+   display: flex;
+   justify-content: center;
+align-items: flex-end;
+   gap: 15px;
+   margin-top: 40px;
+   color: white;
+   text-align: center;
+}
+.container1{
+    height: 100%;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+   
+}
+
+.clm1{
+    height: 50px;
+    width: 30px;
+    background-color:green;
+
+
+}
+.clm2{
+    height: 70px;
+    width: 30px;
+    background-color:green;
+
+
+}
+.clm3{
+    height:100px;
+    width: 30px;
+    background-color:green;
+
+}
+.clm4{
+    height: 130px;
+    width: 30px;
+    background-color:green;
+
+}
+.clm5{
+    height: 150px;
+    width: 30px;
+    background-color:green;
+
+}
+.clm6{
+    height: 180px;
+    width: 30px;
+    background-color:green;
+
+}
+.clm7{
+    height: 200px;
+    width: 30px;
+    background-color:green;
+  
+
+}
+.negivistion-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  
+    padding: 15px 10px;
+    
+   
+}
+.show-apps h2{
+    font-size: 15px;
+}
+.search button{
+    width: 100px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    color: rgb(250, 250, 250);
+    background-color: rgb(8, 8, 8);
+    border: 1px solid rgb(18, 17, 17);
+  
+
+}
+.use-time-container{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.appimg{
+    height: 25px;
+    width: 25px;
+    
+}
+.appimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.one{
+    width: 150px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+   padding-top: 10px;
+  color: black;
+  margin-top: 5px;
+  border: 1px solid rgb(196, 194, 194);
+  border-radius: 20px;
+  
+  
+}
+.apps-name h2{
+    font-size: 17px;
+}
+.app-control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+   
+    
+}
+.use-time{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.Average-time{
+    height: 200px;
+    width: 300px;
+    background-color: #cec7c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(203, 201, 201);
+    border-radius: 20px;
+    margin-top: 10px;
+    
+}
+.Average-time h3{
+    font-size: 30px;
+    color: rgb(6, 66, 113);
+    color: rgb(31, 30, 30);
+}
+.Average-time p{
+    font-size: 19px;
+    padding: 5px;
+}
+
+.screen-sleep{
+    height: 200px;
+    width: 300px;
+    background-color: #cec7c7;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(203, 201, 201);
+    border-radius: 20px;
+
+}
+.screen-sleep h3{
+    font-size: 25px;
+}
+.screen-sleep p:nth-child(3){
+    color: crimson;
+    font-size: 15px;
+    
+}
+.screen-sleep p:nth-child(2){
+    font-size: 14px;
+}
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.screen-sleep p{
+    padding: 4px 0;
+}
+
+.active-overview{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(225, 220, 216);
+    margin-top: 10px;
+    padding: 5px 8px;
+    border: 1px solid rgb(203, 201, 201);
+    border-radius: 20px;
+
+ 
+   
+}
+.pie-chart{
+    height: 100px;
+    width: 100px;
+    
+    margin-left: 30%;
+    background-image: conic-gradient(
+        rgb(53, 30, 186) 70deg,
+        rgb(213, 220, 7) 0 200deg,
+       
+        rgb(255, 55, 0)  70deg
+       
+    );
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.active-overview h2{
+    font-size: 15px;
+    margin-top: 10px;
+    color: rgb(62, 60, 60);
+}
+.active-overview p{
+    font-size: 14px;
+}
+.color-dff{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+
+}
+.red{
+    height: 10px;
+    width: 10px;
+   background-color: red;
+   border-radius: 50%;
+
+}
+.iditienty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+.yellow{
+    height: 10px;
+    width: 10px;
+    background-color: yellow;
+    border-radius: 50%;
+
+}
+.blue{
+    height: 10px;
+    width: 10px;
+    background-color: blue;
+    border-radius: 50%;
+}
